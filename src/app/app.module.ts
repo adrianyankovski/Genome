@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FirstgenomeComponent } from './firstgenome/firstgenome.component';
+import { SecondgenomeComponent } from './secondgenome/secondgenome.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FirstgenomeComponent,
+    SecondgenomeComponent
   ],
   imports: [
     BrowserModule,
